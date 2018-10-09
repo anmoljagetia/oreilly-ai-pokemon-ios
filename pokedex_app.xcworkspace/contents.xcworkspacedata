@@ -2,12 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "absolute:/Users/anmol.j/Personal/Talks/2018/Oreilly-AI/oreilly-ai-pokemon-ios/pokedex_app.xcodeproj">
+      location = "group:pokedex_app.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:pokedex_app.xcodeproj">
    </FileRef>
 </Workspace>
