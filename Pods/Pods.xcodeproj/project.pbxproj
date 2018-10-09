@@ -7,24 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F57E70B19C4621B0924D35FE1EBE58D8 /* Pods-tflite_photos_example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 120C064352CF850551867B03ED76C367 /* Pods-tflite_photos_example-dummy.m */; };
+		D0CCAD9F6DE5B9DEA5A268A367221BA9 /* Pods-pokedex_app-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC6BBAD7EF15D945A9DC1C59DF0A028 /* Pods-pokedex_app-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		120C064352CF850551867B03ED76C367 /* Pods-tflite_photos_example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-tflite_photos_example-dummy.m"; sourceTree = "<group>"; };
-		2F9423B6C51F3450E8C1B854F6ACCC92 /* Pods-tflite_photos_example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-tflite_photos_example-acknowledgements.plist"; sourceTree = "<group>"; };
-		4034F9D0EC891798AF8BB019828C001A /* Pods-tflite_photos_example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-tflite_photos_example-resources.sh"; sourceTree = "<group>"; };
-		600D0C667AA9C654FF51490ABDDD0181 /* Pods-tflite_photos_example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-tflite_photos_example.release.xcconfig"; sourceTree = "<group>"; };
-		6474BCB3C02934C139317424E5BD319D /* libPods-tflite_photos_example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-tflite_photos_example.a"; path = "libPods-tflite_photos_example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C878726D2EC095E2597F701F3AEFAFD /* Pods-pokedex_app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-pokedex_app.release.xcconfig"; sourceTree = "<group>"; };
+		2C6BEE6558D20BC82F67635DDCED5FB7 /* Pods-pokedex_app-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-pokedex_app-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5C620005D88AA7B4578A104A93917198 /* Pods-pokedex_app-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-pokedex_app-acknowledgements.plist"; sourceTree = "<group>"; };
+		73688446BDD93F8799F5F0302BF5464E /* Pods-pokedex_app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-pokedex_app.debug.xcconfig"; sourceTree = "<group>"; };
 		854AA1BB0CB116BF4608F63572463FE5 /* tensorflow_lite.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = tensorflow_lite.framework; path = Frameworks/tensorflow_lite.framework; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		CF093B22E34872F784672E9AC4C9082F /* Pods-tflite_photos_example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-tflite_photos_example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		DC6D21599AF30107FB8D2413664B3B80 /* Pods-tflite_photos_example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-tflite_photos_example.debug.xcconfig"; sourceTree = "<group>"; };
-		EF4A1A0AD1A0893333F6DDB7D91CB051 /* Pods-tflite_photos_example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-tflite_photos_example-frameworks.sh"; sourceTree = "<group>"; };
+		9CC6BBAD7EF15D945A9DC1C59DF0A028 /* Pods-pokedex_app-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-pokedex_app-dummy.m"; sourceTree = "<group>"; };
+		C9DFBCDA8059EA6F613EAFBC3B9D9B74 /* Pods-pokedex_app-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-pokedex_app-resources.sh"; sourceTree = "<group>"; };
+		CEEC324DB05C89046CF612A33844F47D /* libPods-pokedex_app.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-pokedex_app.a"; path = "libPods-pokedex_app.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F54F4A71ACDF193727893B2409023726 /* Pods-pokedex_app-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-pokedex_app-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7DFCA9EB6419F84568537562E7011BB9 /* Frameworks */ = {
+		34408985080AA6330633000C67AE24DF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,6 +39,14 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1EBE31AA5BF7914C74CE99E601CBB90F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEEC324DB05C89046CF612A33844F47D /* libPods-pokedex_app.a */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		36E6436F96216911BE8E0EE174AB868E /* Pods */ = {
@@ -72,46 +80,38 @@
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
 				36E6436F96216911BE8E0EE174AB868E /* Pods */,
-				D57F04774260714F3E4BF2F06C697EC2 /* Products */,
-				B550D381ACDBE9F0748AF282E3BADD39 /* Targets Support Files */,
+				1EBE31AA5BF7914C74CE99E601CBB90F /* Products */,
+				D2B53127105F77EEDC8A77E0C9F4B4D6 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		A01544B662DBAA3D4B5F273F9CA8EC42 /* Pods-tflite_photos_example */ = {
+		CDE1AAB3DFAEC3A1AF21C6A64F9D1946 /* Pods-pokedex_app */ = {
 			isa = PBXGroup;
 			children = (
-				CF093B22E34872F784672E9AC4C9082F /* Pods-tflite_photos_example-acknowledgements.markdown */,
-				2F9423B6C51F3450E8C1B854F6ACCC92 /* Pods-tflite_photos_example-acknowledgements.plist */,
-				120C064352CF850551867B03ED76C367 /* Pods-tflite_photos_example-dummy.m */,
-				EF4A1A0AD1A0893333F6DDB7D91CB051 /* Pods-tflite_photos_example-frameworks.sh */,
-				4034F9D0EC891798AF8BB019828C001A /* Pods-tflite_photos_example-resources.sh */,
-				DC6D21599AF30107FB8D2413664B3B80 /* Pods-tflite_photos_example.debug.xcconfig */,
-				600D0C667AA9C654FF51490ABDDD0181 /* Pods-tflite_photos_example.release.xcconfig */,
+				2C6BEE6558D20BC82F67635DDCED5FB7 /* Pods-pokedex_app-acknowledgements.markdown */,
+				5C620005D88AA7B4578A104A93917198 /* Pods-pokedex_app-acknowledgements.plist */,
+				9CC6BBAD7EF15D945A9DC1C59DF0A028 /* Pods-pokedex_app-dummy.m */,
+				F54F4A71ACDF193727893B2409023726 /* Pods-pokedex_app-frameworks.sh */,
+				C9DFBCDA8059EA6F613EAFBC3B9D9B74 /* Pods-pokedex_app-resources.sh */,
+				73688446BDD93F8799F5F0302BF5464E /* Pods-pokedex_app.debug.xcconfig */,
+				0C878726D2EC095E2597F701F3AEFAFD /* Pods-pokedex_app.release.xcconfig */,
 			);
-			name = "Pods-tflite_photos_example";
-			path = "Target Support Files/Pods-tflite_photos_example";
+			name = "Pods-pokedex_app";
+			path = "Target Support Files/Pods-pokedex_app";
 			sourceTree = "<group>";
 		};
-		B550D381ACDBE9F0748AF282E3BADD39 /* Targets Support Files */ = {
+		D2B53127105F77EEDC8A77E0C9F4B4D6 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				A01544B662DBAA3D4B5F273F9CA8EC42 /* Pods-tflite_photos_example */,
+				CDE1AAB3DFAEC3A1AF21C6A64F9D1946 /* Pods-pokedex_app */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		D57F04774260714F3E4BF2F06C697EC2 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				6474BCB3C02934C139317424E5BD319D /* libPods-tflite_photos_example.a */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		93427C28077C743061C3DC0D80B608D5 /* Headers */ = {
+		E2E508B764D673284CF1E9823C36F288 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -121,21 +121,21 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		FF79FADEE3013D559639DD1597467E81 /* Pods-tflite_photos_example */ = {
+		BEB6236699D923CD8DA505B0D239C67D /* Pods-pokedex_app */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D6A7171E7AAD05572C5CBE129D25F7F5 /* Build configuration list for PBXNativeTarget "Pods-tflite_photos_example" */;
+			buildConfigurationList = 93D04CAC98AB957A59C0E035CD5CA613 /* Build configuration list for PBXNativeTarget "Pods-pokedex_app" */;
 			buildPhases = (
-				93427C28077C743061C3DC0D80B608D5 /* Headers */,
-				DD3CBC75E2AC99A2209A1DCF7E946185 /* Sources */,
-				7DFCA9EB6419F84568537562E7011BB9 /* Frameworks */,
+				E2E508B764D673284CF1E9823C36F288 /* Headers */,
+				423FB59551CED54FB6D3B79E07550BAF /* Sources */,
+				34408985080AA6330633000C67AE24DF /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-tflite_photos_example";
-			productName = "Pods-tflite_photos_example";
-			productReference = 6474BCB3C02934C139317424E5BD319D /* libPods-tflite_photos_example.a */;
+			name = "Pods-pokedex_app";
+			productName = "Pods-pokedex_app";
+			productReference = CEEC324DB05C89046CF612A33844F47D /* libPods-pokedex_app.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -155,30 +155,30 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = D57F04774260714F3E4BF2F06C697EC2 /* Products */;
+			productRefGroup = 1EBE31AA5BF7914C74CE99E601CBB90F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FF79FADEE3013D559639DD1597467E81 /* Pods-tflite_photos_example */,
+				BEB6236699D923CD8DA505B0D239C67D /* Pods-pokedex_app */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		DD3CBC75E2AC99A2209A1DCF7E946185 /* Sources */ = {
+		423FB59551CED54FB6D3B79E07550BAF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F57E70B19C4621B0924D35FE1EBE58D8 /* Pods-tflite_photos_example-dummy.m in Sources */,
+				D0CCAD9F6DE5B9DEA5A268A367221BA9 /* Pods-pokedex_app-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		37F88B7142C8EAADA3AC4D17856CA859 /* Debug */ = {
+		2C46260998E58B89540AAF82089F0496 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DC6D21599AF30107FB8D2413664B3B80 /* Pods-tflite_photos_example.debug.xcconfig */;
+			baseConfigurationReference = 73688446BDD93F8799F5F0302BF5464E /* Pods-pokedex_app.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -256,6 +256,28 @@
 			};
 			name = Release;
 		};
+		BB6DB229AD9315420EF92DDF4C076FBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C878726D2EC095E2597F701F3AEFAFD /* Pods-pokedex_app.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		D11C82AF2204B41B80412B8DC9C1D652 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -320,28 +342,6 @@
 			};
 			name = Debug;
 		};
-		EA950E5B534F143CF00BD59440E7E9FA /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 600D0C667AA9C654FF51490ABDDD0181 /* Pods-tflite_photos_example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -354,11 +354,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D6A7171E7AAD05572C5CBE129D25F7F5 /* Build configuration list for PBXNativeTarget "Pods-tflite_photos_example" */ = {
+		93D04CAC98AB957A59C0E035CD5CA613 /* Build configuration list for PBXNativeTarget "Pods-pokedex_app" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				37F88B7142C8EAADA3AC4D17856CA859 /* Debug */,
-				EA950E5B534F143CF00BD59440E7E9FA /* Release */,
+				2C46260998E58B89540AAF82089F0496 /* Debug */,
+				BB6DB229AD9315420EF92DDF4C076FBE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

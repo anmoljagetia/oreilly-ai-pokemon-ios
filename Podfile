@@ -1,5 +1,5 @@
 platform :ios, '8.0'
 inhibit_all_warnings!
 
-target 'tflite_photos_example'
+target 'pokedex_app'
        pod 'TensorFlowLite'

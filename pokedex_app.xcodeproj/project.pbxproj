@@ -13,17 +13,18 @@
 		1CB47D491ED3AD1700DF7666 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CB47D481ED3AD1700DF7666 /* AVFoundation.framework */; };
 		1CDB2D491ED3A9CD007929E9 /* CameraExampleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CDB2D431ED3A9CD007929E9 /* CameraExampleAppDelegate.m */; };
 		1CDB2D4A1ED3A9CD007929E9 /* CameraExampleViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1CDB2D451ED3A9CD007929E9 /* CameraExampleViewController.mm */; };
+		2AE0CB100987A478336EF2EF /* libPods-pokedex_app.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A754F43EB38571625E2D28D8 /* libPods-pokedex_app.a */; };
 		2E12E3C82087CB8600FD9D4A /* graph.lite in Resources */ = {isa = PBXBuildFile; fileRef = 2E12E3C72087CB8600FD9D4A /* graph.lite */; };
 		2E92D8912088011F005F343A /* AppIcon.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E92D8902088011F005F343A /* AppIcon.xcassets */; };
 		2ED6BE3A207C23E000D3BF6F /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ED6BE39207C23E000D3BF6F /* Photos.framework */; };
 		5A6315412168680D00B79362 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A6315402168680D00B79362 /* Default-568h@2x.png */; };
 		5A6315442169007200B79362 /* optimized_graph.lite in Resources */ = {isa = PBXBuildFile; fileRef = 5A6315422169007200B79362 /* optimized_graph.lite */; };
 		5A6315452169007200B79362 /* retrained_labels.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5A6315432169007200B79362 /* retrained_labels.txt */; };
-		AB30E2C6AA6147C90F25FFD2 /* libPods-tflite_photos_example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FF33ED907C01C2D2EA78BBB /* libPods-tflite_photos_example.a */; };
 		AC1F82661FBA3CBD0052BA77 /* labels.txt in Resources */ = {isa = PBXBuildFile; fileRef = AC1F82641FBA3CBD0052BA77 /* labels.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F620DD1E05979A6249F81C6 /* Pods-pokedex_app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pokedex_app.debug.xcconfig"; path = "Pods/Target Support Files/Pods-pokedex_app/Pods-pokedex_app.debug.xcconfig"; sourceTree = "<group>"; };
 		1C0D73481ECCC41B008C1DAB /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
 		1C0D734A1ECCC460008C1DAB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		1C3C9DCA1ED3AB4200B8B5FA /* main.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
@@ -42,13 +43,11 @@
 		2ED6BE39207C23E000D3BF6F /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
 		2FF33ED907C01C2D2EA78BBB /* libPods-tflite_photos_example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-tflite_photos_example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BA8BF92C84895BFE59D8236 /* libPods-tflite_camera_example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-tflite_camera_example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3BC5BE4BBD09374D3E98F082 /* Pods-tflite_camera_example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tflite_camera_example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tflite_camera_example/Pods-tflite_camera_example.debug.xcconfig"; sourceTree = "<group>"; };
-		55ED318E8D29C8AFEF03DF1E /* Pods-tflite_camera_example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tflite_camera_example.release.xcconfig"; path = "Pods/Target Support Files/Pods-tflite_camera_example/Pods-tflite_camera_example.release.xcconfig"; sourceTree = "<group>"; };
+		486EC1917DC6B5E01B2A2D10 /* Pods-pokedex_app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pokedex_app.release.xcconfig"; path = "Pods/Target Support Files/Pods-pokedex_app/Pods-pokedex_app.release.xcconfig"; sourceTree = "<group>"; };
 		5A6315402168680D00B79362 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		5A6315422169007200B79362 /* optimized_graph.lite */ = {isa = PBXFileReference; lastKnownFileType = file; path = optimized_graph.lite; sourceTree = "<group>"; };
 		5A6315432169007200B79362 /* retrained_labels.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = retrained_labels.txt; sourceTree = "<group>"; };
-		7B75D9AAB5B7890D81174E26 /* Pods-tflite_photos_example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tflite_photos_example.release.xcconfig"; path = "Pods/Target Support Files/Pods-tflite_photos_example/Pods-tflite_photos_example.release.xcconfig"; sourceTree = "<group>"; };
-		92A36BF8A50AF5A52BB51EA5 /* Pods-tflite_photos_example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tflite_photos_example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tflite_photos_example/Pods-tflite_photos_example.debug.xcconfig"; sourceTree = "<group>"; };
+		A754F43EB38571625E2D28D8 /* libPods-pokedex_app.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-pokedex_app.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC1F82641FBA3CBD0052BA77 /* labels.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = labels.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -60,7 +59,7 @@
 				2ED6BE3A207C23E000D3BF6F /* Photos.framework in Frameworks */,
 				1CB47D491ED3AD1700DF7666 /* AVFoundation.framework in Frameworks */,
 				1CA5EB931ED3ABFB00247A34 /* CoreMedia.framework in Frameworks */,
-				AB30E2C6AA6147C90F25FFD2 /* libPods-tflite_photos_example.a in Frameworks */,
+				2AE0CB100987A478336EF2EF /* libPods-pokedex_app.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +77,7 @@
 				1CA45FFE1ECCC356002FA6A4 /* UIKit.framework */,
 				3BA8BF92C84895BFE59D8236 /* libPods-tflite_camera_example.a */,
 				2FF33ED907C01C2D2EA78BBB /* libPods-tflite_photos_example.a */,
+				A754F43EB38571625E2D28D8 /* libPods-pokedex_app.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -85,10 +85,8 @@
 		3E9FC355632FB928EA23BEED /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3BC5BE4BBD09374D3E98F082 /* Pods-tflite_camera_example.debug.xcconfig */,
-				55ED318E8D29C8AFEF03DF1E /* Pods-tflite_camera_example.release.xcconfig */,
-				92A36BF8A50AF5A52BB51EA5 /* Pods-tflite_photos_example.debug.xcconfig */,
-				7B75D9AAB5B7890D81174E26 /* Pods-tflite_photos_example.release.xcconfig */,
+				0F620DD1E05979A6249F81C6 /* Pods-pokedex_app.debug.xcconfig */,
+				486EC1917DC6B5E01B2A2D10 /* Pods-pokedex_app.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -216,7 +214,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-tflite_photos_example-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-pokedex_app-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -241,7 +239,7 @@
 /* Begin XCBuildConfiguration section */
 		1C564C361ED3A92E00087306 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 92A36BF8A50AF5A52BB51EA5 /* Pods-tflite_photos_example.debug.xcconfig */;
+			baseConfigurationReference = 0F620DD1E05979A6249F81C6 /* Pods-pokedex_app.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -261,7 +259,7 @@
 		};
 		1C564C371ED3A92E00087306 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7B75D9AAB5B7890D81174E26 /* Pods-tflite_photos_example.release.xcconfig */;
+			baseConfigurationReference = 486EC1917DC6B5E01B2A2D10 /* Pods-pokedex_app.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ANALYZER_NONNULL = YES;

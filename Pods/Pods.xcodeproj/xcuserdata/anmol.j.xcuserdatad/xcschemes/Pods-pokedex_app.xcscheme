@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FF79FADEE3013D559639DD1597467E81"
-               BlueprintName = "Pods-tflite_photos_example"
+               BlueprintIdentifier = "BEB6236699D923CD8DA505B0D239C67D"
+               BlueprintName = "Pods-pokedex_app"
                ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "libPods-tflite_photos_example.a">
+               BuildableName = "libPods-pokedex_app.a">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
